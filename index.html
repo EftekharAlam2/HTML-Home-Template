@@ -109,8 +109,8 @@
     <main class="container mt-2">
       <!-- Banner Section -->
       <section>
-        <div class="row gx-5 bg-danger">
-          <div class="col pt-5 ps-md-5 ms-5 mt-3 pb-4">
+        <div class="d-flex flex-column flex-lg-row gx-5 bg-danger">
+          <div class="pt-5 ps-md-5 ms-5 mt-3 pb-4">
             <div class="pt-md-5 ps-md-5">
               <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
               <p class="fs-5 text mt-3">
@@ -127,13 +127,19 @@
               </button>
             </div>
           </div>
-          <div class="col">
-            <div class="d-flex align-items-center">
-              <img src="img/icon2.png" class="pt-5" alt="" />
+          <div style="width: 100%">
+            <div class="d-flex align-items-center justify-content-center">
+              <img
+                src="img/icon2.png"
+                class="pt-5"
+                style="width: 100%"
+                alt=""
+              />
             </div>
           </div>
-          <img src="wave1.png" alt="" />
+          <img src="img/wave1.png" class="d-lg-none" alt="" />
         </div>
+        <img src="img/wave1.png" class="container" alt="" />
       </section>
     </main>
     <!-- Please connect with internet to run the Bootstrap JS -->
